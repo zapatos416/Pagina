@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paddock Telemetry | F1 Live Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Paddock<span>Telemetry</span></div>
+    <div class="live-badge">
+      <span class="dot"></span> TELEMETRÍA EN VIVO
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Monitor de Sesión: Circuito de Bahréin</h1>
+        <p>Análisis en tiempo real de ritmo de carrera, desgaste de neumáticos y tiempos por sector con datos simulados de pista.</p>
+      </div>
+      <button class="btn" id="simularBtn">Simular Nueva Vuelta</button>
+    </section>
+
+    <section class="grid-cards">
+      <div class="card">
+        <div class="card-label">Vuelta Rápida</div>
+        <div class="card-value" id="fastestLap">1:30.459</div>
+        <div class="card-sub">Compuesto: Blando (C3)</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Velocidad Punta (Speed Trap)</div>
+        <div class="card-value" id="topSpeed">334 km/h</div>
+        <div class="card-sub">Recta principal — Zona DRS 1</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Temperatura de Pista</div>
+        <div class="card-value" id="trackTemp">29.4 °C</div>
+        <div class="card-sub">Agarre óptimo — Viento 11 km/h</div>
+      </div>
+    </section>
+
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Piloto</th>
+            <th>Escudería</th>
+            <th>Sector 1</th>
+            <th>Sector 2</th>
+            <th>Última Vuelta</th>
+          </tr>
+        </thead>
+        <tbody id="timingBody">
+          <tr>
+            <td><strong>1</strong></td>
+            <td>Max Verstappen</td>
+            <td>Red Bull Racing</td>
+            <td class="sector-purple">28.412</td>
+            <td class="sector-green">38.901</td>
+            <td><strong>1:30.459</strong></td>
+          </tr>
+          <tr>
+            <td><strong>2</strong></td>
+            <td>Sergio Pérez</td>
+            <td>Cadillac F1</td>
+            <td class="sector-green">28.530</td>
+            <td>39.044</td>
+            <td>1:30.682</td>
+          </tr>
+          <tr>
+            <td><strong>3</strong></td>
+            <td>Lewis Hamilton</td>
+            <td>Ferrari</td>
+            <td>28.601</td>
+            <td class="sector-purple">38.885</td>
+            <td>1:30.715</td>
+          </tr>
+          <tr>
+            <td><strong>4</strong></td>
+            <td>Fernando Alonso</td>
+            <td>Aston Martin</td>
+            <td>28.640</td>
+            <td>39.110</td>
+            <td>1:30.890</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    Paddock Telemetry Hub • Estructura separada en HTML, CSS y JS.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    <script src="/script.js"></script>
+  </body>
+
+</html>
